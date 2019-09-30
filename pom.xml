@@ -7,6 +7,7 @@
     <groupId>io.github.vinccool96.algorithms</groupId>
     <artifactId>algorithms</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <name>algorithms</name>
     <description>Provides with common algorithms</description>
     <url>https://github.com/Vinccool96/Algorithms</url>
     <distributionManagement>
