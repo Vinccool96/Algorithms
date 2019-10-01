@@ -1,6 +1,6 @@
 package io.github.vinccool96.algorithms.java.sorting;
 
-import io.github.vinccool96.algorithms.java.list.Swap;
+import io.github.vinccool96.algorithms.java.list.ListUtil;
 
 import java.util.List;
 
@@ -22,7 +22,7 @@ public class InsertionSort {
         for (int i = 1; i < list.size(); i++) {
             T x = list.get(i);
             for (int j = i - 1; j > 0 && list.get(j).compareTo(x) < 0; j++) {
-                Swap.getInstance().swap(list, j, j - 1);
+                ListUtil.getInstance().swap(list, j, j - 1);
             }
         }
     }
