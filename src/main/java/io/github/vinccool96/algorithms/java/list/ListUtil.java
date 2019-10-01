@@ -71,6 +71,23 @@ public class ListUtil {
     }
 
     /**
+     * Puts all the elements of {@code listFrom} in {@code listTo} up to the index {@code indexEnd}.
+     *
+     * @param listFrom the {@link List<T>} to copy to {@code listTo}
+     * @param listTo the {@link List<T>} in which the elements of {@code listFrom} are put.
+     * @param <T> the type of the object in {@code list}
+     */
+    public <T> void copyList(List<T> listFrom, List<T> listTo, int indexEnd) {
+        if (indexEnd>=listFrom.size()){
+            String s = "indexEnd can't be greater or equal to listFrom.size()";
+            throw new IllegalArgumentException(s);
+        }
+        for (int i = 0; i < indexEnd; i++) {
+            setOrAdd(listTo, i, listFrom.get(i));
+        }
+    }
+
+    /**
      * Copies all the elements of {@code listFrom} in {@code listTo} from the index {@code indexStart} to
      * {@code indexEnd}. {@code indexEnd} is included if {@code endIncluded} is {@code true}.
      *

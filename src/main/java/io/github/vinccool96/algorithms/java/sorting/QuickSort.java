@@ -2,22 +2,14 @@ package io.github.vinccool96.algorithms.java.sorting;
 
 import java.util.List;
 
-public class QuickSort {
-
-    private static QuickSort instance;
-
-    public static QuickSort getInstance() {
-        if (instance == null) {
-            instance = new QuickSort();
-        }
-        return instance;
-    }
-
-    private QuickSort() {
-    }
+abstract class QuickSort {
 
     public <T extends Comparable<T>> void sort(List<T> list) {
 
     }
+
+    protected abstract  <T extends Comparable<T>>void quickSort(List<T> list, int low, int high);
+
+    protected abstract <T extends Comparable<T>>int partition(List<T> list, int low, int high);
 
 }
