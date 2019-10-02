@@ -22,7 +22,7 @@ public class ListUtil {
     /**
      * Swaps the elements at the indexes {@code index1} and {@code index2} in {@code list}.
      *
-     * @param list the {@link List<T>} that will get its elements swapped
+     * @param list the {@link List} that will get its elements swapped
      * @param index1 the index of the first object to swap
      * @param index2 the index of the second object to swap
      * @param <T> the type of the objects in {@code list}
@@ -38,7 +38,7 @@ public class ListUtil {
      * {@link List#add(Object)} will be performed to add {@code null}, then {@code list.add(element)} so that
      * {@code element} will be at the index {@code index} in {@code list}.
      *
-     * @param list the {@link List<T>} to which the element will be set or added to the specified position.
+     * @param list the {@link List} to which the element will be set or added to the specified position.
      * @param index the index of the element
      * @param element the element to put in the list
      * @param <T> the type of {@code element}
@@ -63,8 +63,8 @@ public class ListUtil {
     /**
      * Removes all the elements in {@code listTo} then puts all the elements of {@code listFrom} in {@code listTo}.
      *
-     * @param listFrom the {@link List<T>} to copy to {@code listTo}
-     * @param listTo the {@link List<T>} in which the elements of {@code listFrom} are put.
+     * @param listFrom the {@link List} to copy to {@code listTo}
+     * @param listTo the {@link List} in which the elements of {@code listFrom} are put.
      * @param <T> the type of the objects in {@code list}
      */
     public <T> void copyList(List<T> listFrom, List<T> listTo) {
@@ -75,8 +75,8 @@ public class ListUtil {
     /**
      * Puts all the elements of {@code listFrom} in {@code listTo} up to the index {@code indexEnd}.
      *
-     * @param listFrom the {@link List<T>} to copy to {@code listTo}
-     * @param listTo the {@link List<T>} in which the elements of {@code listFrom} are put.
+     * @param listFrom the {@link List} to copy to {@code listTo}
+     * @param listTo the {@link List} in which the elements of {@code listFrom} are put.
      * @param <T> the type of the objects in {@code list}
      */
     public <T> void copyList(List<T> listFrom, List<T> listTo, int indexEnd) {
@@ -93,8 +93,8 @@ public class ListUtil {
      * Copies all the elements of {@code listFrom} in {@code listTo} from the index {@code indexStart} to
      * {@code indexEnd}. {@code indexEnd} is included if {@code endIncluded} is {@code true}.
      *
-     * @param listFrom the {@link List<T>} to copy to {@code listTo}
-     * @param listTo the {@link List<T>} in which the elements of {@code listFrom} are put.
+     * @param listFrom the {@link List} to copy to {@code listTo}
+     * @param listTo the {@link List} in which the elements of {@code listFrom} are put.
      * @param indexStart the starting index of the elements to put in {@code listTo}
      * @param indexEnd the last index of the elements to put in {@code listTo}
      * @param endIncluded if {@code true}, {@code indexEnd} is included
