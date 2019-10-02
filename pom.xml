@@ -65,6 +65,12 @@
             <version>4.12</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>io.github.vinccool96.junit4.generator</groupId>
+            <artifactId>junit4-suite-generator</artifactId>
+            <version>1.7</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
     <scm>
         <connection>scm:git:https://github.com/Vinccool96/Algorithms.git</connection>

@@ -1,5 +1,7 @@
 package io.github.vinccool96.algorithms.java.list;
 
+import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 /**
@@ -126,5 +128,14 @@ public class ListUtil {
             setOrAdd(listTo, i, listFrom.get(i));
         }
     }
+
+//    public <T> List<T> removeAllTo(List<T> list, int lastIndex) {
+//        if (list.getClass() != ArrayList.class && list.getClass() != LinkedList.class &&
+//                list.getClass() != List.class) {
+//            String s = "please only use an ArrayList or a LinkedList, not one of its subclass";
+//            throw new IllegalArgumentException(s);
+//        }
+//
+//    }
 
 }
