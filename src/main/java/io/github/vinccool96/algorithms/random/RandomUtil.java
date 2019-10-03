@@ -1,4 +1,4 @@
-package io.github.vinccool96.algorithms.java.random;
+package io.github.vinccool96.algorithms.random;
 
 import java.util.ArrayList;
 import java.util.Collection;

@@ -1,4 +1,4 @@
-package io.github.vinccool96.algorithms.java.list;
+package io.github.vinccool96.algorithms.list;
 
 import org.junit.Test;
 

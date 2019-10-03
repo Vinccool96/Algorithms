@@ -1,6 +1,6 @@
-package io.github.vinccool96.algorithms.java.sorting;
+package io.github.vinccool96.algorithms.sorting;
 
-import io.github.vinccool96.algorithms.java.list.ListUtil;
+import io.github.vinccool96.algorithms.list.ListUtil;
 
 import java.util.ArrayList;
 import java.util.List;

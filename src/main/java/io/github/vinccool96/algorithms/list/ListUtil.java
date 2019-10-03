@@ -1,7 +1,5 @@
-package io.github.vinccool96.algorithms.java.list;
+package io.github.vinccool96.algorithms.list;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
 
 /**

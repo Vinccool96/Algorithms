@@ -1,4 +1,4 @@
-package io.github.vinccool96.algorithms.java.sorting;
+package io.github.vinccool96.algorithms.sorting;
 
 import java.util.ArrayList;
 import java.util.List;

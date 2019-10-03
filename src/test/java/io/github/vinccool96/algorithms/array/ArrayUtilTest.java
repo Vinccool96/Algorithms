@@ -1,4 +1,4 @@
-package io.github.vinccool96.algorithms.java.array;
+package io.github.vinccool96.algorithms.array;
 
 import org.junit.Before;
 import org.junit.Test;
