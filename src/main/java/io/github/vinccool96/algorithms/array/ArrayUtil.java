@@ -18,18 +18,24 @@ public class ArrayUtil {
 
     /**
      * Removes all the elements of {@code list} then puts all the elements of {@code array} into {@code list}.
-     * 
+     *
      * @param list the {@link List} that will contain all the elements
      * @param array the array copied to {@code list}
      * @param <T> the class of the objects in {@code array} and in {@code list}
      */
     @SuppressWarnings({"UseBulkOperation", "ManualArrayToCollectionCopy", "ForLoopReplaceableByForEach"})
-    public <T> void toList(List<T> list, T[] array){
+    public <T> void toList(List<T> list, T[] array) {
         list.clear();
         for (int i = 0; i < array.length; i++) {
             T element = array[i];
             list.add(element);
         }
+    }
+
+    public <T> void swap(T[] array, int index1, int index2) {
+        T temp = array[index1];
+        array[index1] = array[index2];
+        array[index2] = temp;
     }
 
 }

@@ -26,7 +26,7 @@ public class Range implements Iterable<Integer> {
 
         private RangeNode rangeNode;
 
-        public RangeIterator(int firstNum, int lastNum) {
+        RangeIterator(int firstNum, int lastNum) {
             rangeNode = new RangeNode(firstNum);
             RangeNode previousNode = rangeNode;
             for (int i = firstNum + 1; i < lastNum; i++) {
